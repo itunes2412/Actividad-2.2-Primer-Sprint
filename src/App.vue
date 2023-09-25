@@ -1,18 +1,16 @@
 <template>
   <div>
     <img alt="Vue logo" src="./assets/logo.png">
-    <MyComponent/>
+    <!-- Aquí agregamos el router-view que mostrará el componente de la ruta actual -->
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import MyComponent from './components/MyComponent.vue';
+// No necesitas importar MyComponent aquí, ya que se cargará dinámicamente según la ruta.
 
 export default {
   name: 'App',
-  components: {
-    MyComponent
-  }
 };
 </script>
 
@@ -26,4 +24,3 @@ export default {
   margin-top: 60px;
 }
 </style>
-
