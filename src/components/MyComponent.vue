@@ -183,6 +183,12 @@ export default {
 </script>
 
 <style scoped>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Estilos para el esqueleto de la página */
 .app {
   font-family: 'Roboto', sans-serif;
