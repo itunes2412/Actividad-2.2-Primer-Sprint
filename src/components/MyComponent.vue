@@ -19,7 +19,16 @@
         <li><router-link to="/contacto">Contacto</router-link></li>
         <li><router-link to="/blog">Blog</router-link></li>
       </ul>
-      <button class="login-button">Iniciar Sesión</button>
+      <div>
+        <!-- Botón que redirige al formulario -->
+        <router-link to="/contacto">
+          <button class="login-button">Iniciar Sesión</button>
+        </router-link>
+      </div>
+
+
+      
+      
     </nav>
 
     <!-- Contenido de la Página -->
@@ -183,11 +192,7 @@ export default {
 </script>
 
 <style scoped>
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 /* Estilos para el esqueleto de la página */
 .app {
@@ -202,7 +207,7 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0;
+  padding: px 0;
 }
 
 /* Estilos para el logo */

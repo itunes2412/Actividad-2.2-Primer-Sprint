@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img alt="Vue logo" src="./assets/logo.png">
+    
     <!-- Aquí agregamos el router-view que mostrará el componente de la ruta actual -->
     <router-view></router-view>
   </div>

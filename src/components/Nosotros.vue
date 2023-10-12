@@ -21,7 +21,6 @@
       </ul>
       <button class="login-button">Iniciar Sesión</button>
     </nav>
-
     <!-- Contenido de la Página -->
     <main class="content">
       <!-- Sección de Inicio -->

@@ -12,7 +12,7 @@
         </div>
         <ul class="menu">
           <li><router-link to="/">Inicio</router-link></li>
-          <li><router-link to="/nosotros">Nosotros</router-link></li>
+          <li><router-link to="/nosotros.vue">Nosotros</router-link></li>
           <li><router-link to="/propiedades">Propiedades</router-link></li>
           <li><router-link to="/proyectos">Proyectos</router-link></li>
           <li><router-link to="/promocion">Promoción</router-link></li>
